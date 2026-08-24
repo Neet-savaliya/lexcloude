@@ -1,0 +1,24 @@
+# Never commit real credentials
+.env
+*.env
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+build/
+.next/
+
+# AWS
+.aws/
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local editor/tooling artifacts
+.lh/
+.claude/

@@ -1,0 +1,30 @@
+{
+  "name": "lexcloud-backend",
+  "version": "1.0.0",
+  "description": "LexCloud backend — serverless legal document intelligence",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node scripts/test-connection.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock": "^3.1073.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.0.0",
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/client-s3": "^3.0.0",
+    "@aws-sdk/client-textract": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "@aws-sdk/s3-request-presigner": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "docx": "^9.7.1",
+    "dotenv": "^16.0.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.6.2",
+    "jsonwebtoken": "^9.0.3",
+    "mammoth": "^1.12.1",
+    "multer": "^2.2.0",
+    "pdfkit": "^0.20.1",
+    "uuid": "^9.0.0"
+  }
+}
