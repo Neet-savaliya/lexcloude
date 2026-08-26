@@ -1,5 +1,6 @@
 const { InvokeModelCommand } = require("@aws-sdk/client-bedrock-runtime");
 const { bedrock } = require("./aws");
+const { enqueue } = require("./bedrockQueue");
 
 const MODEL = process.env.BEDROCK_EMBEDDING_MODEL; // amazon.titan-embed-text-v1
 
@@ -9,12 +10,12 @@ const MODEL = process.env.BEDROCK_EMBEDDING_MODEL; // amazon.titan-embed-text-v1
  */
 async function embed(text) {
   const truncated = text.slice(0, 8000); // Titan max input
-  const res = await bedrock.send(new InvokeModelCommand({
+  const res = await enqueue(() => bedrock.send(new InvokeModelCommand({
     modelId: MODEL,
     contentType: "application/json",
     accept: "application/json",
     body: JSON.stringify({ inputText: truncated }),
-  }));
+  })));
   const body = JSON.parse(Buffer.from(res.body).toString("utf-8"));
   return body.embedding; // float[]
 }

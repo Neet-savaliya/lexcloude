@@ -1,0 +1,519 @@
+{
+  "generatedAt": "2026-08-25T13:58:01.685Z",
+  "questionsRun": 21,
+  "answerCorrectness": 0.3333333333333333,
+  "retrievalHitRate": 0.3333333333333333,
+  "attributionAccuracy": 0.3333333333333333,
+  "medianLatencyMs": 10897,
+  "p90LatencyMs": 67903,
+  "perCase": [
+    {
+      "case": "State vs Vikram Haresh Desai",
+      "avgAnswerScore": 1,
+      "retrievalHitRate": 1,
+      "attributionAccuracy": 1
+    },
+    {
+      "case": "State vs Priya Nair",
+      "avgAnswerScore": 0,
+      "retrievalHitRate": 0,
+      "attributionAccuracy": 0
+    },
+    {
+      "case": "State vs Sanjay Kumar",
+      "avgAnswerScore": 0,
+      "retrievalHitRate": 0,
+      "attributionAccuracy": 0
+    },
+    {
+      "case": "State vs Farhan Ali Sheikh",
+      "avgAnswerScore": 1,
+      "retrievalHitRate": 1,
+      "attributionAccuracy": 1
+    },
+    {
+      "case": "State vs Meena Devi",
+      "avgAnswerScore": 1,
+      "retrievalHitRate": 1,
+      "attributionAccuracy": 1
+    }
+  ],
+  "results": [
+    {
+      "case": "State vs Vikram Haresh Desai",
+      "question": "How many days has the accused been in custody?",
+      "mustContain": [
+        "78 days"
+      ],
+      "matched": [
+        "78 days"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 67903,
+      "answer": "According to the client's case documents [Source 1], the accused Vikram Haresh Desai has been in custody for 78 days as on the date of the bail application, which was filed on May 10, 2024. Specifically, the documents state:\n\n\"As on the date of this application (10 May 2024), the applicant has been in custody for 78 days.\" [Source 1]",
+      "sources": [
+        {
+          "docName": "vikram_desai_bail_order.txt (part 1/2)",
+          "docId": "f59a25eb-6ffb-4fca-bf58-f9d432c50136_chunk_0",
+          "isGlobal": false,
+          "score": "0.3143"
+        },
+        {
+          "docName": "vikram_desai_bail_order.txt (part 2/2)",
+          "docId": "f59a25eb-6ffb-4fca-bf58-f9d432c50136_chunk_1",
+          "isGlobal": false,
+          "score": "0.2933"
+        },
+        {
+          "docName": "Rahimuddin Khan @ Rahmuddin Khan vs The State Of Bihar",
+          "docId": "bail-998",
+          "isGlobal": true,
+          "score": "0.4410"
+        },
+        {
+          "docName": "Vijay vs State (NCT Of Delhi)",
+          "docId": "bail-345",
+          "isGlobal": true,
+          "score": "0.4358"
+        }
+      ]
+    },
+    {
+      "case": "State vs Vikram Haresh Desai",
+      "question": "What is the total amount the complainant alleges he lost?",
+      "mustContain": [
+        "8,40,000"
+      ],
+      "matched": [
+        "8,40,000"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 4703,
+      "answer": "According to the client's case documents [Source 2], the complainant Mr. Rajeshbhai Manilal Solanki alleges that the accused, Vikram Haresh Desai, \"induced him to transfer Rs. 8,40,000 between March 2023 and June 2023 promising 24% returns, and supplied goods worth only Rs. 2,10,000.\" \n\nTherefore, the total amount the complainant alleges he lost is Rs. 8,40,000 - Rs. 2,10,000 = Rs. 6,30,000. [Source 2]",
+      "sources": [
+        {
+          "docName": "vikram_desai_bail_order.txt (part 2/2)",
+          "docId": "f59a25eb-6ffb-4fca-bf58-f9d432c50136_chunk_1",
+          "isGlobal": false,
+          "score": "0.2659"
+        },
+        {
+          "docName": "vikram_desai_bail_order.txt (part 1/2)",
+          "docId": "f59a25eb-6ffb-4fca-bf58-f9d432c50136_chunk_0",
+          "isGlobal": false,
+          "score": "0.2278"
+        },
+        {
+          "docName": "X vs The State & Anr",
+          "docId": "bail-46",
+          "isGlobal": true,
+          "score": "0.4158"
+        },
+        {
+          "docName": "Manish Bajaj vs The State",
+          "docId": "bail-882",
+          "isGlobal": true,
+          "score": "0.3996"
+        }
+      ]
+    },
+    {
+      "case": "State vs Vikram Haresh Desai",
+      "question": "Was bail granted or rejected, and what was the bond amount?",
+      "mustContain": [
+        "allowed",
+        "50,000"
+      ],
+      "matched": [
+        "allowed",
+        "50,000"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 10897,
+      "answer": "Based on the client's case documents [Source 1 and Source 2], bail was granted to the accused, Vikram Haresh Desai, by the Additional Sessions Judge Court No. 3 in Ahmedabad, Gujarat.\n\nThe key details are:\n\n1. The court order states that \"THE APPLICATION FOR BAIL IS ALLOWED.\" [Source 1]\n\n2. The accused was ordered to be released on a personal bond of Rs. 50,000/- and one surety of equivalent amount. [Source 1]\n\n3. The bail was granted on the grounds that the accused was not a flight risk, the investigation was substantially complete, and the accused had a statutory right to default bail under Section 437(6) CrPC as no chargesheet had been filed within 60 days of his arrest. [Source 2]\n\nTherefore, the bail was granted, and the bond amount was set at Rs. 50,000/- along with one surety of equivalent amount. This information is directly sourced from the client's case documents [Source 1 and Source 2].",
+      "sources": [
+        {
+          "docName": "vikram_desai_bail_order.txt (part 2/2)",
+          "docId": "f59a25eb-6ffb-4fca-bf58-f9d432c50136_chunk_1",
+          "isGlobal": false,
+          "score": "0.4125"
+        },
+        {
+          "docName": "vikram_desai_bail_order.txt (part 1/2)",
+          "docId": "f59a25eb-6ffb-4fca-bf58-f9d432c50136_chunk_0",
+          "isGlobal": false,
+          "score": "0.2576"
+        },
+        {
+          "docName": "Manish Chawla vs State",
+          "docId": "bail-1005",
+          "isGlobal": true,
+          "score": "0.3878"
+        },
+        {
+          "docName": "Rajiv Kumar @ Rajiv Das vs The State Of Bihar",
+          "docId": "bail-578",
+          "isGlobal": true,
+          "score": "0.3867"
+        }
+      ]
+    },
+    {
+      "case": "State vs Vikram Haresh Desai",
+      "question": "What health condition does the accused suffer from?",
+      "mustContain": [
+        "diabet"
+      ],
+      "matched": [
+        "diabet"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 12906,
+      "answer": "According to the case documents, the accused Vikram Haresh Desai suffers from the following health conditions:\n\n[Source 1] \"41 years old, Type 2 Diabetic and hypertensive.\"\n\nSo the relevant health conditions of the accused are:\n\n1. Type 2 Diabetes\n2. Hypertension (high blood pressure)\n\nThe case documents clearly state that the accused is diabetic and hypertensive.",
+      "sources": [
+        {
+          "docName": "vikram_desai_bail_order.txt (part 1/2)",
+          "docId": "f59a25eb-6ffb-4fca-bf58-f9d432c50136_chunk_0",
+          "isGlobal": false,
+          "score": "0.1870"
+        },
+        {
+          "docName": "vikram_desai_bail_order.txt (part 2/2)",
+          "docId": "f59a25eb-6ffb-4fca-bf58-f9d432c50136_chunk_1",
+          "isGlobal": false,
+          "score": "0.0695"
+        },
+        {
+          "docName": "Dharam Singh vs The State Of Madhya Pradesh",
+          "docId": "bail-1147",
+          "isGlobal": true,
+          "score": "0.2699"
+        },
+        {
+          "docName": "Suraj Singh vs State Of Rajasthan",
+          "docId": "bail-546",
+          "isGlobal": true,
+          "score": "0.2535"
+        }
+      ]
+    },
+    {
+      "case": "State vs Vikram Haresh Desai",
+      "question": "On what statutory ground was default bail argued?",
+      "mustContain": [
+        "437(6)"
+      ],
+      "matched": [
+        "437(6)"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 15293,
+      "answer": "Based on the client's case documents [Source 1 and Source 2], the key statutory ground on which default bail was argued was under Section 437(6) of the Code of Criminal Procedure (CrPC).\n\nSpecifically, the documents state:\n\n\"Ground 1: Statutory right to default bail under Section 437(6) CrPC — 78 days elapsed, no chargesheet filed, offence carries max 7 years, falls under the 60-day default bail category.\" [Source 2]\n\nThe court's order also notes that \"The accused was arrested on 22 February 2024; 78 days have elapsed with no chargesheet filed, granting an indefeasible right to default bail under Section 437(6) CrPC.\" [Source 1]\n\nTherefore, the key statutory ground used to argue for default bail in this case was Section 437(6) of the CrPC, which provides for an indefeasible right to bail if the accused has been in custody for 60 days or more without a chargesheet being filed, and the offense carries a maximum punishment of up to 7 years imprisonment. [Source 1, Source 2]",
+      "sources": [
+        {
+          "docName": "vikram_desai_bail_order.txt (part 2/2)",
+          "docId": "f59a25eb-6ffb-4fca-bf58-f9d432c50136_chunk_1",
+          "isGlobal": false,
+          "score": "0.3969"
+        },
+        {
+          "docName": "vikram_desai_bail_order.txt (part 1/2)",
+          "docId": "f59a25eb-6ffb-4fca-bf58-f9d432c50136_chunk_0",
+          "isGlobal": false,
+          "score": "0.2892"
+        },
+        {
+          "docName": "State Of Manipur vs Laishram Surjit Singh",
+          "docId": "bail-187",
+          "isGlobal": true,
+          "score": "0.5540"
+        },
+        {
+          "docName": "Lungsibui Thiumai vs The Union Of India",
+          "docId": "bail-402",
+          "isGlobal": true,
+          "score": "0.5100"
+        }
+      ]
+    },
+    {
+      "case": "State vs Priya Nair",
+      "question": "How many days has Priya Nair been in custody?",
+      "mustContain": [
+        "15 days"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Priya Nair",
+      "question": "What is the value of the jewellery alleged to be stolen?",
+      "mustContain": [
+        "3,20,000"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Priya Nair",
+      "question": "What sections is the accused charged under?",
+      "mustContain": [
+        "380"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Priya Nair",
+      "question": "What was the bond amount ordered by the court?",
+      "mustContain": [
+        "25,000"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Sanjay Kumar",
+      "question": "How many days has Sanjay Kumar been in custody?",
+      "mustContain": [
+        "120 days"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Sanjay Kumar",
+      "question": "How much heroin was recovered and what section was he charged under?",
+      "mustContain": [
+        "2 kilograms",
+        "21"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Sanjay Kumar",
+      "question": "Was bail granted or rejected in this case?",
+      "mustContain": [
+        "rejected"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Sanjay Kumar",
+      "question": "Does the accused have any prior criminal conviction?",
+      "mustContain": [
+        "excise act"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Farhan Ali Sheikh",
+      "question": "How many days has Farhan Ali Sheikh been in custody?",
+      "mustContain": [
+        "45 days"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Farhan Ali Sheikh",
+      "question": "How many victims were affected and what was the total amount involved?",
+      "mustContain": [
+        "63",
+        "45,00,000"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Farhan Ali Sheikh",
+      "question": "What restitution amount did the accused's family offer?",
+      "mustContain": [
+        "5,00,000"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Farhan Ali Sheikh",
+      "question": "What was the name of the fraudulent app involved?",
+      "mustContain": [
+        "quickgain"
+      ],
+      "matched": [
+        "quickgain"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 6382,
+      "answer": "According to the client's case documents [Source 1: farhan_sheikh_bail_order.txt], the name of the fraudulent mobile investment application operated by the applicant Farhan Ali Sheikh was \"QuickGain Pro\". The application promised guaranteed 15% monthly returns, but stopped processing withdrawals after victims had deposited a cumulative amount of Rs. 45,00,000 into accounts linked to the applicant between October 2023 and March 2024.",
+      "sources": [
+        {
+          "docName": "farhan_sheikh_bail_order.txt",
+          "docId": "a3a29f1e-fd10-459f-8351-8d8410f312d5_chunk_0",
+          "isGlobal": false,
+          "score": "0.3368"
+        },
+        {
+          "docName": "Shivam Rajpoot vs State Of U.P.",
+          "docId": "bail-649",
+          "isGlobal": true,
+          "score": "0.3351"
+        },
+        {
+          "docName": "Anant Sontu S/O Navratan Jain vs State Of Maharashtra Through PSO Cyber PS Sadar",
+          "docId": "bail-789",
+          "isGlobal": true,
+          "score": "0.2794"
+        }
+      ]
+    },
+    {
+      "case": "State vs Meena Devi",
+      "question": "What type of bail application is this and under which section?",
+      "mustContain": [
+        "anticipatory",
+        "438"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Meena Devi",
+      "question": "What is the relationship between the applicant and the complainant?",
+      "mustContain": [
+        "mother-in-law"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Meena Devi",
+      "question": "Was anticipatory bail granted or rejected?",
+      "mustContain": [
+        "allowed"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Meena Devi",
+      "question": "What Supreme Court case did the defence rely on?",
+      "mustContain": [
+        "arnesh kumar"
+      ],
+      "matched": [
+        "arnesh kumar"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 4920,
+      "answer": "Based on the client's case documents, the defence counsel cited the Supreme Court's guidelines in the case of Arnesh Kumar vs State of Bihar (2014) as the precedent relied upon in the anticipatory bail application. [Source 1]",
+      "sources": [
+        {
+          "docName": "meena_devi_bail_order.txt",
+          "docId": "937a8409-c497-4995-be4e-73ebc265540d_chunk_0",
+          "isGlobal": false,
+          "score": "0.0858"
+        },
+        {
+          "docName": "Shahzad Hasan Khan vs Ishtiaq Hasan Khan & Anr",
+          "docId": "bail-11",
+          "isGlobal": true,
+          "score": "0.2523"
+        },
+        {
+          "docName": "Ravi Kumar @ Sonu vs State",
+          "docId": "bail-904",
+          "isGlobal": true,
+          "score": "0.2409"
+        }
+      ]
+    }
+  ]
+}

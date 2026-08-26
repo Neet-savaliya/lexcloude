@@ -1,0 +1,751 @@
+{
+  "generatedAt": "2026-08-25T14:21:30.002Z",
+  "questionsRun": 21,
+  "answerCorrectness": 0.8333333333333334,
+  "retrievalHitRate": 0.8571428571428571,
+  "attributionAccuracy": 0.8571428571428571,
+  "medianLatencyMs": 7706,
+  "p90LatencyMs": 12306,
+  "perCase": [
+    {
+      "case": "State vs Vikram Haresh Desai",
+      "avgAnswerScore": 0.9,
+      "retrievalHitRate": 1,
+      "attributionAccuracy": 1
+    },
+    {
+      "case": "State vs Priya Nair",
+      "avgAnswerScore": 1,
+      "retrievalHitRate": 1,
+      "attributionAccuracy": 1
+    },
+    {
+      "case": "State vs Sanjay Kumar",
+      "avgAnswerScore": 1,
+      "retrievalHitRate": 1,
+      "attributionAccuracy": 1
+    },
+    {
+      "case": "State vs Farhan Ali Sheikh",
+      "avgAnswerScore": 1,
+      "retrievalHitRate": 1,
+      "attributionAccuracy": 1
+    },
+    {
+      "case": "State vs Meena Devi",
+      "avgAnswerScore": 1,
+      "retrievalHitRate": 1,
+      "attributionAccuracy": 1
+    }
+  ],
+  "results": [
+    {
+      "case": "State vs Vikram Haresh Desai",
+      "question": "How many days has the accused been in custody?",
+      "mustContain": [
+        "78 days"
+      ],
+      "matched": [
+        "78 days"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 63890,
+      "answer": "Based on the facts provided in [Source 1] and [Source 2], the accused Vikram Haresh Desai has been in custody for 78 days as of the date of the bail application on 10 May 2024.\n\nThe key details are:\n\n- Vikram Haresh Desai was arrested on 22 February 2024. [Source 1]\n- The bail application was filed on 10 May 2024. [Source 1]\n- The time period between the arrest on 22 February 2024 and the bail application on 10 May 2024 is 78 days. [Source 1]\n\nTherefore, the accused has been in custody for 78 days at the time of the bail application. [Source 1, Source 2]",
+      "sources": [
+        {
+          "docName": "vikram_desai_bail_order.txt (part 1/2)",
+          "docId": "a83bcb47-7134-4cf3-9f4e-e6a4077b7e56_chunk_0",
+          "isGlobal": false,
+          "score": "0.2999"
+        },
+        {
+          "docName": "vikram_desai_bail_order.txt (part 2/2)",
+          "docId": "a83bcb47-7134-4cf3-9f4e-e6a4077b7e56_chunk_1",
+          "isGlobal": false,
+          "score": "0.2886"
+        },
+        {
+          "docName": "Tamizharasi And Another vs Assistant Director, Narcotic Control",
+          "docId": "bail-1068",
+          "isGlobal": true,
+          "score": "0.4542"
+        },
+        {
+          "docName": "Powell Nwawa Ogechi vs The State (Delhi Administration)",
+          "docId": "bail-1084",
+          "isGlobal": true,
+          "score": "0.4515"
+        }
+      ]
+    },
+    {
+      "case": "State vs Vikram Haresh Desai",
+      "question": "What is the total amount the complainant alleges he lost?",
+      "mustContain": [
+        "8,40,000"
+      ],
+      "matched": [
+        "8,40,000"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 4068,
+      "answer": "According to the client's case documents [Source 1 and Source 2], the complainant Mr. Rajeshbhai Manilal Solanki alleges that the accused, Vikram Haresh Desai, induced him to transfer Rs. 8,40,000 between March 2023 and June 2023 promising 24% returns, but only supplied goods worth Rs. 2,10,000. Therefore, the total amount the complainant alleges he lost is Rs. 8,40,000. [Source 2]",
+      "sources": [
+        {
+          "docName": "vikram_desai_bail_order.txt (part 2/2)",
+          "docId": "a83bcb47-7134-4cf3-9f4e-e6a4077b7e56_chunk_1",
+          "isGlobal": false,
+          "score": "0.2560"
+        },
+        {
+          "docName": "vikram_desai_bail_order.txt (part 1/2)",
+          "docId": "a83bcb47-7134-4cf3-9f4e-e6a4077b7e56_chunk_0",
+          "isGlobal": false,
+          "score": "0.2357"
+        },
+        {
+          "docName": "Manish Bajaj vs The State",
+          "docId": "bail-882",
+          "isGlobal": true,
+          "score": "0.3792"
+        },
+        {
+          "docName": "X vs The State & Anr",
+          "docId": "bail-46",
+          "isGlobal": true,
+          "score": "0.3776"
+        }
+      ]
+    },
+    {
+      "case": "State vs Vikram Haresh Desai",
+      "question": "Was bail granted or rejected, and what was the bond amount?",
+      "mustContain": [
+        "allowed",
+        "50,000"
+      ],
+      "matched": [
+        "50,000"
+      ],
+      "answerScore": 0.5,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 5112,
+      "answer": "Based on the information provided in [Source 1] and [Source 2], bail was granted to the accused Vikram Haresh Desai. The key details are:\n\n1. Bail was granted by the Additional Sessions Judge, Court No. 3, Ahmedabad.\n\n2. The bail was granted under Section 439 of the Code of Criminal Procedure, 1973.\n\n3. The bail amount was set at a personal bond of Rs. 50,000/- and one surety of equivalent amount.\n\n4. The bail was granted on the following conditions:\n   (i) Surrender passport No. Z4521837 to Naranpura Police Station within 24 hours\n   (ii) Report to Naranpura Police Station every Monday from 10 AM to 12 PM\n   (iii) Not leave Gujarat without permission\n   (iv) No contact with the complainant or witnesses\n   (v) Cooperate with the investigation\n\nSo in summary, bail was granted to the accused Vikram Haresh Desai on a bond of Rs. 50,000/- and one surety of equivalent amount, subject to the specified conditions. [Source 1] [Source 2]",
+      "sources": [
+        {
+          "docName": "vikram_desai_bail_order.txt (part 2/2)",
+          "docId": "a83bcb47-7134-4cf3-9f4e-e6a4077b7e56_chunk_1",
+          "isGlobal": false,
+          "score": "0.4081"
+        },
+        {
+          "docName": "vikram_desai_bail_order.txt (part 1/2)",
+          "docId": "a83bcb47-7134-4cf3-9f4e-e6a4077b7e56_chunk_0",
+          "isGlobal": false,
+          "score": "0.2210"
+        },
+        {
+          "docName": "Raju Mandal vs The State Of Jharkhand",
+          "docId": "bail-657",
+          "isGlobal": true,
+          "score": "0.4230"
+        },
+        {
+          "docName": "Premwati vs Narcotics Control Bureau",
+          "docId": "bail-340",
+          "isGlobal": true,
+          "score": "0.3948"
+        }
+      ]
+    },
+    {
+      "case": "State vs Vikram Haresh Desai",
+      "question": "What health condition does the accused suffer from?",
+      "mustContain": [
+        "diabet"
+      ],
+      "matched": [
+        "diabet"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 9859,
+      "answer": "According to the client's case documents, the accused Vikram Haresh Desai suffers from Type 2 Diabetes and hypertension. This is evident from the \"PERSONAL BACKGROUND\" section in [Source 2], which states:\n\n\"41 years old, Type 2 Diabetic and hypertensive.\" [Source 2]",
+      "sources": [
+        {
+          "docName": "vikram_desai_bail_order.txt (part 2/2)",
+          "docId": "a83bcb47-7134-4cf3-9f4e-e6a4077b7e56_chunk_1",
+          "isGlobal": false,
+          "score": "0.4425"
+        },
+        {
+          "docName": "vikram_desai_bail_order.txt (part 1/2)",
+          "docId": "a83bcb47-7134-4cf3-9f4e-e6a4077b7e56_chunk_0",
+          "isGlobal": false,
+          "score": "0.3595"
+        },
+        {
+          "docName": "Redaul Hussain Khan vs The National Investigation Agency",
+          "docId": "bail-92",
+          "isGlobal": true,
+          "score": "0.5156"
+        },
+        {
+          "docName": "Shri Indrajeet Roy vs Republic Of India",
+          "docId": "bail-98",
+          "isGlobal": true,
+          "score": "0.5152"
+        }
+      ]
+    },
+    {
+      "case": "State vs Vikram Haresh Desai",
+      "question": "On what statutory ground was default bail argued?",
+      "mustContain": [
+        "437(6)"
+      ],
+      "matched": [
+        "437(6)"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 11067,
+      "answer": "Based on the client's case documents, the main statutory ground on which default bail was argued was under Section 437(6) of the Code of Criminal Procedure (CrPC). \n\nSpecifically, the documents state [Source 2]:\n\n\"Ground 1: Statutory right to default bail under Section 437(6) CrPC — 78 days elapsed, no chargesheet filed, offence carries max 7 years, falls under the 60-day default bail category.\"\n\nThe client's case documents indicate that the applicant/accused Vikram Haresh Desai had been in custody for 78 days at the time of the bail application, with no chargesheet filed by the prosecution. Since the offences alleged carry a maximum punishment of 7 years imprisonment, the case falls under the 60-day default bail category under Section 437(6) CrPC. \n\nTherefore, the key statutory ground relied upon for the bail application was the accused's indefeasible right to default bail under Section 437(6) CrPC, given the prosecution's failure to file the chargesheet within the stipulated time period.",
+      "sources": [
+        {
+          "docName": "vikram_desai_bail_order.txt (part 2/2)",
+          "docId": "a83bcb47-7134-4cf3-9f4e-e6a4077b7e56_chunk_1",
+          "isGlobal": false,
+          "score": "0.4180"
+        },
+        {
+          "docName": "vikram_desai_bail_order.txt (part 1/2)",
+          "docId": "a83bcb47-7134-4cf3-9f4e-e6a4077b7e56_chunk_0",
+          "isGlobal": false,
+          "score": "0.3238"
+        },
+        {
+          "docName": "Tamizharasi And Another vs Assistant Director, Narcotic Control",
+          "docId": "bail-1068",
+          "isGlobal": true,
+          "score": "0.6040"
+        },
+        {
+          "docName": "Aslam Babalal Desai vs State Of Maharashtra",
+          "docId": "bail-9",
+          "isGlobal": true,
+          "score": "0.5732"
+        }
+      ]
+    },
+    {
+      "case": "State vs Priya Nair",
+      "question": "How many days has Priya Nair been in custody?",
+      "mustContain": [
+        "15 days"
+      ],
+      "matched": [
+        "15 days"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 11715,
+      "answer": "According to the case documents [Source 1: priya_nair_bail_order.txt], Priya Nair has been in custody for 15 days as on the date of the bail application, which was filed on June 18, 2024.\n\nThe relevant excerpt from the case documents states:\n\n\"As on the date of this application (18 June 2024), the applicant has been in custody for 15 days.\"\n\nTherefore, based on the information provided in the client's case documents, Priya Nair has been in custody for 15 days. [Source 1]",
+      "sources": [
+        {
+          "docName": "priya_nair_bail_order.txt",
+          "docId": "a8838e7b-9a47-4900-8385-c3fbe0a69bdd_chunk_0",
+          "isGlobal": false,
+          "score": "0.4361"
+        },
+        {
+          "docName": "Mukesh Modi vs SFIO, New Delhi And Another",
+          "docId": "bail-1096",
+          "isGlobal": true,
+          "score": "0.3431"
+        },
+        {
+          "docName": "Prem Raj And Anr. vs The State Of Rajasthan",
+          "docId": "bail-1086",
+          "isGlobal": true,
+          "score": "0.3381"
+        }
+      ]
+    },
+    {
+      "case": "State vs Priya Nair",
+      "question": "What is the value of the jewellery alleged to be stolen?",
+      "mustContain": [
+        "3,20,000"
+      ],
+      "matched": [
+        "3,20,000"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 12306,
+      "answer": "According to the case documents [Source 1: priya_nair_bail_order.txt], the value of the gold jewellery alleged to be stolen is Rs. 3,20,000.\n\nThe relevant excerpt states:\n\n\"The complainant, Mrs. Lakshmi Menon, alleges that gold jewellery valued at Rs. 3,20,000 went missing from her residence where the applicant was employed as domestic help for the past 2 years.\"\n\nSo the value of the alleged stolen jewellery is Rs. 3,20,000.",
+      "sources": [
+        {
+          "docName": "priya_nair_bail_order.txt",
+          "docId": "a8838e7b-9a47-4900-8385-c3fbe0a69bdd_chunk_0",
+          "isGlobal": false,
+          "score": "0.4351"
+        },
+        {
+          "docName": "Jitendra Kumar vs The State Of Bihar",
+          "docId": "bail-1189",
+          "isGlobal": true,
+          "score": "0.3715"
+        },
+        {
+          "docName": "Himanshu Pandey @ Ribbu vs State Of U.P.",
+          "docId": "bail-990",
+          "isGlobal": true,
+          "score": "0.3505"
+        }
+      ]
+    },
+    {
+      "case": "State vs Priya Nair",
+      "question": "What sections is the accused charged under?",
+      "mustContain": [
+        "380"
+      ],
+      "matched": [
+        "380"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 10013,
+      "answer": "Based on the client's case documents [Source 1], the accused Priya Nair is charged under the following sections:\n\n1. Section 380 of the Indian Penal Code (IPC) - Theft in a dwelling house, with a maximum punishment of 7 years.\n2. Section 34 of the IPC - Common intention.\n\nThe documents state that \"The applicant was arrested on 3 June 2024 for offences under Section 380 IPC (Theft in a dwelling house, max 7 years) and Section 34 IPC (Common intention).\" [Source 1]",
+      "sources": [
+        {
+          "docName": "priya_nair_bail_order.txt",
+          "docId": "a8838e7b-9a47-4900-8385-c3fbe0a69bdd_chunk_0",
+          "isGlobal": false,
+          "score": "0.3570"
+        },
+        {
+          "docName": "Achi vs The Station House Officer",
+          "docId": "bail-260",
+          "isGlobal": true,
+          "score": "0.4920"
+        },
+        {
+          "docName": "Prahlad Singh Bhati vs N.C.T., Delhi & Anr",
+          "docId": "bail-741",
+          "isGlobal": true,
+          "score": "0.4783"
+        }
+      ]
+    },
+    {
+      "case": "State vs Priya Nair",
+      "question": "What was the bond amount ordered by the court?",
+      "mustContain": [
+        "25,000"
+      ],
+      "matched": [
+        "25,000"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 10868,
+      "answer": "According to the case documents [Source 1], the court ordered the applicant Priya Nair to be released on a personal bond of Rs. 25,000/- with one local surety.\n\nThe relevant excerpt from the court order states:\n\n\"THE APPLICATION FOR BAIL IS ALLOWED. The applicant is ordered released on a personal bond of Rs. 25,000/- with one local surety, subject to conditions...\"\n\nTherefore, the bond amount ordered by the court for Priya Nair's bail was Rs. 25,000/- with one local surety. [Source 1]",
+      "sources": [
+        {
+          "docName": "priya_nair_bail_order.txt",
+          "docId": "a8838e7b-9a47-4900-8385-c3fbe0a69bdd_chunk_0",
+          "isGlobal": false,
+          "score": "0.1706"
+        },
+        {
+          "docName": "Sumit Mehta vs State Of N.C.T. Of Delhi",
+          "docId": "bail-1003",
+          "isGlobal": true,
+          "score": "0.2778"
+        },
+        {
+          "docName": "Rakesh Kumar Gami @ Rakesh Gami vs The State Of Bihar",
+          "docId": "bail-851",
+          "isGlobal": true,
+          "score": "0.2692"
+        }
+      ]
+    },
+    {
+      "case": "State vs Sanjay Kumar",
+      "question": "How many days has Sanjay Kumar been in custody?",
+      "mustContain": [
+        "120 days"
+      ],
+      "matched": [
+        "120 days"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 7106,
+      "answer": "Based on the client's case documents, Sanjay Kumar has been in custody for 120 days at the time of the bail application, which was filed on 14 May 2024. This can be seen in the following quote from [Source 1: sanjay_kumar_bail_order.txt]:\n\n\"As on the date of this application (14 May 2024), the applicant has been in custody for 120 days.\"\n\n[Source 1: sanjay_kumar_bail_order.txt]",
+      "sources": [
+        {
+          "docName": "sanjay_kumar_bail_order.txt",
+          "docId": "33e3e677-2758-408d-b873-9bb4b23df6e2_chunk_0",
+          "isGlobal": false,
+          "score": "0.4472"
+        },
+        {
+          "docName": "Sanjay Kumar vs State Of U.P. Thru. Secy. Deptt. Of Home",
+          "docId": "bail-431",
+          "isGlobal": true,
+          "score": "0.5732"
+        },
+        {
+          "docName": "Sanjeev Kumar vs State Of Haryana",
+          "docId": "bail-307",
+          "isGlobal": true,
+          "score": "0.4661"
+        }
+      ]
+    },
+    {
+      "case": "State vs Sanjay Kumar",
+      "question": "How much heroin was recovered and what section was he charged under?",
+      "mustContain": [
+        "2 kilograms",
+        "21"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Sanjay Kumar",
+      "question": "Was bail granted or rejected in this case?",
+      "mustContain": [
+        "rejected"
+      ],
+      "matched": [
+        "rejected"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 7706,
+      "answer": "Based on the client's case documents [Source 1], bail was REJECTED for the applicant Sanjay Kumar.\n\nThe key points from the case documents are:\n\n1. Sanjay Kumar was arrested on 14 January 2024 for possessing 2 kilograms of heroin, a commercial quantity offense under the NDPS Act. [Source 1]\n\n2. Under Section 37 of the NDPS Act, the court must be satisfied that there are \"reasonable grounds to believe the accused is not guilty\" and is \"unlikely to commit any offense while on bail\" - a higher threshold than ordinary bail. [Source 1]\n\n3. The court noted Sanjay Kumar had a prior conviction under the Punjab Excise Act in 2019, which the prosecution argued showed a pattern of involvement in contraband transport. [Source 1] \n\n4. Considering the commercial quantity involved and Sanjay's prior record, the court stated it was \"not satisfied that reasonable grounds exist to believe the applicant is not guilty of the offence alleged\" and REJECTED the bail application. [Source 1]\n\nThe court's order clearly states that \"THE APPLICATION FOR BAIL IS REJECTED\" and the \"applicant shall continue in judicial custody.\" [Source 1]",
+      "sources": [
+        {
+          "docName": "sanjay_kumar_bail_order.txt",
+          "docId": "33e3e677-2758-408d-b873-9bb4b23df6e2_chunk_0",
+          "isGlobal": false,
+          "score": "0.1855"
+        },
+        {
+          "docName": "Raju Mandal vs The State Of Jharkhand",
+          "docId": "bail-657",
+          "isGlobal": true,
+          "score": "0.4870"
+        },
+        {
+          "docName": "Santosh Jayram Bhagat vs The State Of Maharashtra",
+          "docId": "bail-1166",
+          "isGlobal": true,
+          "score": "0.4733"
+        }
+      ]
+    },
+    {
+      "case": "State vs Sanjay Kumar",
+      "question": "Does the accused have any prior criminal conviction?",
+      "mustContain": [
+        "excise act"
+      ],
+      "matched": [
+        "excise act"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 6781,
+      "answer": "Based on the client's case documents [Source 1], the accused Sanjay Kumar has a prior conviction from 2019 under the Punjab Excise Act for illegal liquor transport, for which he served a 6-month sentence. [Source 1]",
+      "sources": [
+        {
+          "docName": "sanjay_kumar_bail_order.txt",
+          "docId": "33e3e677-2758-408d-b873-9bb4b23df6e2_chunk_0",
+          "isGlobal": false,
+          "score": "0.1588"
+        },
+        {
+          "docName": "Somar Yadav vs The State Of Bihar",
+          "docId": "bail-262",
+          "isGlobal": true,
+          "score": "0.3017"
+        },
+        {
+          "docName": "Pradeep vs State",
+          "docId": "bail-1097",
+          "isGlobal": true,
+          "score": "0.2635"
+        }
+      ]
+    },
+    {
+      "case": "State vs Farhan Ali Sheikh",
+      "question": "How many days has Farhan Ali Sheikh been in custody?",
+      "mustContain": [
+        "45 days"
+      ],
+      "matched": [
+        "45 days"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 7466,
+      "answer": "According to the case documents [Source 1: farhan_sheikh_bail_order.txt], Farhan Ali Sheikh has been in custody for 45 days as on the date of the bail application, which was filed on 17 May 2024.\n\nThe relevant excerpt:\n\"As on the date of this application (17 May 2024), the applicant has been in custody for 45 days.\"",
+      "sources": [
+        {
+          "docName": "farhan_sheikh_bail_order.txt",
+          "docId": "9cf3e8c0-f907-4874-8673-a35242293b98_chunk_0",
+          "isGlobal": false,
+          "score": "0.6054"
+        },
+        {
+          "docName": "Mohammad Rafiq Abdul Jabbar Shaikh vs State Of Maharashtra",
+          "docId": "bail-945",
+          "isGlobal": true,
+          "score": "0.3457"
+        },
+        {
+          "docName": "Rahimuddin Khan @ Rahmuddin Khan vs The State Of Bihar",
+          "docId": "bail-998",
+          "isGlobal": true,
+          "score": "0.3197"
+        }
+      ]
+    },
+    {
+      "case": "State vs Farhan Ali Sheikh",
+      "question": "How many victims were affected and what was the total amount involved?",
+      "mustContain": [
+        "63",
+        "45,00,000"
+      ],
+      "matched": [
+        "63",
+        "45,00,000"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 6652,
+      "answer": "According to the client's case documents [Source 1: farhan_sheikh_bail_order.txt], the following facts are provided:\n\n1. Total number of victims: 63 victims across Mumbai, Pune, and Nashik [Source 1].\n\n2. Total amount involved: A cumulative amount of Rs. 45,00,000 was allegedly deposited into accounts linked to the applicant, Farhan Ali Sheikh, between October 2023 and March 2024 [Source 1].\n\nTherefore, the case documents indicate that 63 victims were affected, and the total amount involved was Rs. 45,00,000.",
+      "sources": [
+        {
+          "docName": "farhan_sheikh_bail_order.txt",
+          "docId": "9cf3e8c0-f907-4874-8673-a35242293b98_chunk_0",
+          "isGlobal": false,
+          "score": "0.1559"
+        },
+        {
+          "docName": "Smt. Chhaya Devi vs Union Of India And Another",
+          "docId": "bail-1159",
+          "isGlobal": true,
+          "score": "0.1681"
+        },
+        {
+          "docName": "Sunil Dahiya vs State (Govt Of NCT Of Delhi)",
+          "docId": "bail-1002",
+          "isGlobal": true,
+          "score": "0.1581"
+        }
+      ]
+    },
+    {
+      "case": "State vs Farhan Ali Sheikh",
+      "question": "What restitution amount did the accused's family offer?",
+      "mustContain": [
+        "5,00,000"
+      ],
+      "matched": [
+        "5,00,000"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 3670,
+      "answer": "According to the case documents, the accused Farhan Ali Sheikh's family offered to deposit Rs. 5,00,000 towards partial restitution to the victims as a gesture of good faith. This is stated in the [Source 1: farhan_sheikh_bail_order.txt] document under the \"GROUNDS FOR BAIL\" section.\n\n[Source 1: farhan_sheikh_bail_order.txt]",
+      "sources": [
+        {
+          "docName": "farhan_sheikh_bail_order.txt",
+          "docId": "9cf3e8c0-f907-4874-8673-a35242293b98_chunk_0",
+          "isGlobal": false,
+          "score": "0.1822"
+        },
+        {
+          "docName": "Vikas Yadav vs State Of U.P & Anr",
+          "docId": "bail-148",
+          "isGlobal": true,
+          "score": "0.3192"
+        },
+        {
+          "docName": "Achi vs The Station House Officer",
+          "docId": "bail-260",
+          "isGlobal": true,
+          "score": "0.3146"
+        }
+      ]
+    },
+    {
+      "case": "State vs Farhan Ali Sheikh",
+      "question": "What was the name of the fraudulent app involved?",
+      "mustContain": [
+        "quickgain"
+      ],
+      "matched": [
+        "quickgain"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 3387,
+      "answer": "According to the client's case documents [Source 1: farhan_sheikh_bail_order.txt], the name of the fraudulent mobile investment application operated by the accused Farhan Ali Sheikh was \"QuickGain Pro\".",
+      "sources": [
+        {
+          "docName": "farhan_sheikh_bail_order.txt",
+          "docId": "9cf3e8c0-f907-4874-8673-a35242293b98_chunk_0",
+          "isGlobal": false,
+          "score": "0.3692"
+        },
+        {
+          "docName": "Gaurav vs The State Of Madhya Pradesh",
+          "docId": "bail-258",
+          "isGlobal": true,
+          "score": "0.4649"
+        },
+        {
+          "docName": "Upendra Singh @ Indal Singh vs State Of U.P.",
+          "docId": "bail-624",
+          "isGlobal": true,
+          "score": "0.4623"
+        }
+      ]
+    },
+    {
+      "case": "State vs Meena Devi",
+      "question": "What type of bail application is this and under which section?",
+      "mustContain": [
+        "anticipatory",
+        "438"
+      ],
+      "matched": [
+        "anticipatory",
+        "438"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 8267,
+      "answer": "Based on the client's case documents provided [Source 1: meena_devi_bail_order.txt], this is an application for ANTICIPATORY BAIL filed under Section 438 of the Code of Criminal Procedure, 1973.\n\nThe key evidence from the case documents is:\n\n[Source 1]\n\"APPLICATION FOR ANTICIPATORY BAIL UNDER SECTION 438 OF THE CODE OF CRIMINAL PROCEDURE, 1973\nAPPLICANT: Meena Devi, age 63, homemaker, Hazratganj, Lucknow (mother-in-law of the complainant).\"\n\nThe applicant, Meena Devi, has filed this application for anticipatory bail under Section 438 of the CrPC, as she has not yet been arrested but apprehends arrest in the FIR registered against her and her son under Sections 498A, 34 and 406 of the Indian Penal Code.",
+      "sources": [
+        {
+          "docName": "meena_devi_bail_order.txt",
+          "docId": "95efc645-2ff5-4c3c-a8b5-90d88bc41beb_chunk_0",
+          "isGlobal": false,
+          "score": "0.3960"
+        },
+        {
+          "docName": "Kuldeep vs State Nct Of Delhi",
+          "docId": "bail-978",
+          "isGlobal": true,
+          "score": "0.4722"
+        },
+        {
+          "docName": "Upendra Singh @ Indal Singh vs State Of U.P.",
+          "docId": "bail-624",
+          "isGlobal": true,
+          "score": "0.4472"
+        }
+      ]
+    },
+    {
+      "case": "State vs Meena Devi",
+      "question": "What is the relationship between the applicant and the complainant?",
+      "mustContain": [
+        "mother-in-law"
+      ],
+      "matched": [
+        "mother-in-law"
+      ],
+      "answerScore": 1,
+      "retrievalHit": 1,
+      "attributionHit": 1,
+      "latencyMs": 10102,
+      "answer": "Based on the client's case documents [Source 1], the relationship between the applicant, Meena Devi, and the complainant, Mrs. Sunita Verma, is as follows:\n\nMeena Devi is the mother-in-law of the complainant, Mrs. Sunita Verma. Specifically, Meena Devi is the mother of Sunita Verma's husband. [Source 1]\n\nThe documents state that Meena Devi is the \"mother-in-law of the complainant\" and that the FIR was registered against Meena Devi and her son (Sunita Verma's husband). [Source 1]\n\nTherefore, the relationship between the applicant, Meena Devi, and the complainant, Mrs. Sunita Verma, is that of mother-in-law and daughter-in-law.",
+      "sources": [
+        {
+          "docName": "meena_devi_bail_order.txt",
+          "docId": "95efc645-2ff5-4c3c-a8b5-90d88bc41beb_chunk_0",
+          "isGlobal": false,
+          "score": "0.1263"
+        },
+        {
+          "docName": "Rajkaran Patel vs State Of U.P.",
+          "docId": "bail-91",
+          "isGlobal": true,
+          "score": "0.1937"
+        },
+        {
+          "docName": "Abhimanyu Kumar @ Abhimanyu Kumar Singh vs The State Of Bihar",
+          "docId": "bail-438",
+          "isGlobal": true,
+          "score": "0.1923"
+        }
+      ]
+    },
+    {
+      "case": "State vs Meena Devi",
+      "question": "Was anticipatory bail granted or rejected?",
+      "mustContain": [
+        "allowed"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    },
+    {
+      "case": "State vs Meena Devi",
+      "question": "What Supreme Court case did the defence rely on?",
+      "mustContain": [
+        "arnesh kumar"
+      ],
+      "matched": [],
+      "answerScore": 0,
+      "retrievalHit": 0,
+      "attributionHit": 0,
+      "latencyMs": null,
+      "answer": "ERROR: Too many requests, please wait before trying again.",
+      "sources": []
+    }
+  ]
+}

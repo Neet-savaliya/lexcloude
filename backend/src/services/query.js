@@ -4,6 +4,7 @@ const { InvokeModelCommand }    = require("@aws-sdk/client-bedrock-runtime");
 const { dynamo, bedrock }       = require("../lib/aws");
 const { embed, cosineSim }      = require("../lib/embeddings");
 const { withRetry }             = require("../lib/retry");
+const { enqueue }               = require("../lib/bedrockQueue");
 const logger                    = require("../lib/logger");
 
 const TABLE      = process.env.METADATA_TABLE;
@@ -128,7 +129,7 @@ const GLOBAL_TOP_K = 2; // top matches pulled from the shared global KB
  */
 async function rewriteQuery(question) {
   try {
-    const res = await withRetry(() => bedrock.send(new InvokeModelCommand({
+    const res = await enqueue(() => withRetry(() => bedrock.send(new InvokeModelCommand({
       modelId:     CHAT_MODEL,
       contentType: "application/json",
       accept:      "application/json",
@@ -143,7 +144,7 @@ async function rewriteQuery(question) {
             `comma-separated terms, nothing else.\n\nQuestion: "${question}"`,
         }],
       }),
-    })));
+    }))));
     const body = JSON.parse(Buffer.from(res.body).toString("utf-8"));
     const rewritten = body.content[0].text.trim();
     return rewritten || question;
@@ -187,12 +188,26 @@ async function queryAllItems(id) {
 const GLOBAL_POOL_CACHE_MS = 30 * 60 * 1000; // 30 minutes
 let globalPoolCache = null;
 let globalPoolCachedAt = 0;
+// Single-flight guard: while a refresh is in progress, every concurrent
+// caller awaits THIS SAME promise instead of starting its own ~75s
+// queryAllItems("GLOBAL") pagination. Without this, N concurrent requests
+// hitting a cold/expired cache trigger N redundant full-table scans at
+// once (reproduced directly with a 6-request concurrency test — see the
+// "Cache Stampede" write-up). Cleared in .finally() so a failed refresh
+// doesn't permanently wedge the cache.
+let globalPoolRefreshInFlight = null;
 
 async function getGlobalPool() {
   const isFresh = globalPoolCache && (Date.now() - globalPoolCachedAt < GLOBAL_POOL_CACHE_MS);
   if (isFresh) return globalPoolCache;
 
-  const items = await queryAllItems("GLOBAL");
+  if (globalPoolRefreshInFlight) return globalPoolRefreshInFlight;
+
+  globalPoolRefreshInFlight = queryAllItems("GLOBAL").finally(() => {
+    globalPoolRefreshInFlight = null;
+  });
+
+  const items = await globalPoolRefreshInFlight;
   globalPoolCache = items;
   globalPoolCachedAt = Date.now();
   logger.info(`[query] Refreshed global KB cache: ${items.length} items`);
@@ -278,7 +293,7 @@ QUESTION: ${question}
 
 ANSWER:`;
 
-  const bedrockRes = await withRetry(() => bedrock.send(new InvokeModelCommand({
+  const bedrockRes = await enqueue(() => withRetry(() => bedrock.send(new InvokeModelCommand({
     modelId:     CHAT_MODEL,
     contentType: "application/json",
     accept:      "application/json",
@@ -287,7 +302,7 @@ ANSWER:`;
       max_tokens: 1024,
       messages: [{ role: "user", content: prompt }],
     }),
-  })));
+  }))));
 
   const responseBody = JSON.parse(Buffer.from(bedrockRes.body).toString("utf-8"));
   const answer = responseBody.content[0].text;
